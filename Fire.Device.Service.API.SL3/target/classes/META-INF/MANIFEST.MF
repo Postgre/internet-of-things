@@ -1,0 +1,25 @@
+Manifest-Version: 1.0
+Bnd-LastModified: 1380788208875
+Build-Jdk: 1.7.0_15
+Built-By: SESA249907
+Bundle-ManifestVersion: 2
+Bundle-Name: Fire Device Service API - SL3
+Bundle-SymbolicName: com.thoughtconcepts.d2d.Fire.Device.Service.API
+Bundle-Version: 1.0.0.SNAPSHOT
+Created-By: Apache Maven Bundle Plugin
+Export-Package: org.osgi.service.permissionadmin;version="1.2",org.osgi.
+ framework.startlevel;uses:="org.osgi.framework";version="1.0",org.osgi.
+ service.condpermadmin;uses:="org.osgi.framework,org.osgi.service.permis
+ sionadmin";version="1.1.1",org.osgi.framework.wiring;uses:="org.osgi.fr
+ amework";version="1.0",org.osgi.service.url;version="1.0",org.osgi.serv
+ ice.packageadmin;uses:="org.osgi.framework";version="1.2",org.osgi.fram
+ ework.hooks.bundle;uses:="org.osgi.framework";version="1.0",org.osgi.fr
+ amework.hooks.service;uses:="org.osgi.framework";version="1.1",org.osgi
+ .framework.hooks.resolver;uses:="org.osgi.framework.wiring";version="1.
+ 0",org.osgi.service.startlevel;uses:="org.osgi.framework";version="1.1"
+ ,org.osgi.framework.launch;uses:="org.osgi.framework";version="1.0",org
+ .osgi.framework;uses:="javax.security.auth.x500";version="1.6",org.osgi
+ .framework.hooks.weaving;uses:="org.osgi.framework.wiring";version="1.0
+ ",com.thoughtconcepts.d2d.fire.device.services;version="1.0.0.SNAPSHOT"
+Import-Package: javax.security.auth.x500
+Tool: Bnd-1.50.0

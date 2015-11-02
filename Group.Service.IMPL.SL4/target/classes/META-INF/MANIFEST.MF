@@ -1,0 +1,30 @@
+Manifest-Version: 1.0
+Bnd-LastModified: 1380274744701
+Build-Jdk: 1.7.0_15
+Built-By: SESA249907
+Bundle-ClassPath: .,lib/jongo-0.4.jar,lib/jackson-core-2.1.4.jar,lib/jac
+ kson-annotations-2.1.4.jar,lib/jackson-databind-2.1.1.jar,lib/bson4jack
+ son-2.1.1.jar,lib/mongo-java-driver-2.10.1.jar
+Bundle-ManifestVersion: 2
+Bundle-Name: Group Service IMPL - SL4
+Bundle-SymbolicName: com.thoughtconcepts.d2d.Group.Service.Impl
+Bundle-Version: 1.0.0.SNAPSHOT
+Created-By: Apache Maven Bundle Plugin
+Embed-Dependency: scope=compile|runtime
+Embed-Directory: lib
+Embed-Transitive: true
+Embedded-Artifacts: lib/jongo-0.4.jar;g="org.jongo";a="jongo";v="0.4",li
+ b/jackson-core-2.1.4.jar;g="com.fasterxml.jackson.core";a="jackson-core
+ ";v="2.1.4",lib/jackson-annotations-2.1.4.jar;g="com.fasterxml.jackson.
+ core";a="jackson-annotations";v="2.1.4",lib/jackson-databind-2.1.1.jar;
+ g="com.fasterxml.jackson.core";a="jackson-databind";v="2.1.1",lib/bson4
+ jackson-2.1.1.jar;g="de.undercouch";a="bson4jackson";v="2.1.1",lib/mong
+ o-java-driver-2.10.1.jar;g="org.mongodb";a="mongo-java-driver";v="2.10.
+ 1"
+Import-Package: com.thoughtconcepts.d2d.group.services;version="[1.0,2)"
+ ,com.thoughtconcepts.group.model;version="[1.0,2)",javax.management,jav
+ ax.management.openmbean,javax.management.remote,javax.net,javax.xml.dat
+ atype,javax.xml.namespace,javax.xml.parsers,org.w3c.dom,org.w3c.dom.boo
+ tstrap,org.w3c.dom.ls,org.xml.sax
+Service-Component: OSGI-INF/component.xml
+Tool: Bnd-1.50.0

@@ -1,0 +1,19 @@
+Manifest-Version: 1.0
+Bnd-LastModified: 1380516112173
+Build-Jdk: 1.7.0_15
+Built-By: SESA249907
+Bundle-Activator: com.thoughtconcepts.d2d.mqtt.services.app.Activator
+Bundle-ManifestVersion: 2
+Bundle-Name: MQTT Service
+Bundle-SymbolicName: com.thoughtconcepts.d2d.MQTT.Service
+Bundle-Version: 1.0.0.SNAPSHOT
+Created-By: Apache Maven Bundle Plugin
+Export-Package: com.thoughtconcepts.d2d.mqtt.services.app;uses:="org.osg
+ i.service.event,com.thoughtconcepts.d2d.mqtt.services.listener";version
+ ="1.0.0.SNAPSHOT",com.thoughtconcepts.d2d.mqtt.services.listener;uses:=
+ "org.fusesource.mqtt.client,org.osgi.service.event";version="1.0.0.SNAP
+ SHOT"
+Ignore-Package: org.osgi.framework,org.fusesource.hawtbuf
+Import-Package: org.fusesource.mqtt.client,org.osgi.service.event;versio
+ n="[1.2,2)"
+Tool: Bnd-1.50.0

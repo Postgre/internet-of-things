@@ -1,0 +1,3 @@
+com\thoughtconcepts\d2d\mqtt\toipc\delegation\handler\DelegationEventHandler.class
+com\thoughtconcepts\d2d\mqtt\topic\delegation\osgi\tracker\DeviceServiceTracker.class
+com\thoughtconcepts\d2d\mqtt\toipc\delegation\Activator.class

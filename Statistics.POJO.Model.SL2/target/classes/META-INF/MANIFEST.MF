@@ -1,0 +1,26 @@
+Manifest-Version: 1.0
+Bnd-LastModified: 1380794053062
+Build-Jdk: 1.7.0_15
+Built-By: SESA249907
+Bundle-ManifestVersion: 2
+Bundle-Name: Statistics POJO Model - SL2
+Bundle-SymbolicName: com.thoughtconcepts.d2d.Statistics.POJO.Model
+Bundle-Version: 1.0.0.SNAPSHOT
+Created-By: Apache Maven Bundle Plugin
+Export-Package: org.osgi.service.permissionadmin;version="1.2",com.thoug
+ htconcepts.statistics.model;uses:="javax.xml.bind.annotation";version="
+ 1.0.0.SNAPSHOT",org.osgi.framework.startlevel;uses:="org.osgi.framework
+ ";version="1.0",org.osgi.service.condpermadmin;uses:="org.osgi.framewor
+ k,org.osgi.service.permissionadmin";version="1.1.1",org.osgi.framework.
+ wiring;uses:="org.osgi.framework";version="1.0",org.osgi.service.url;ve
+ rsion="1.0",org.osgi.service.packageadmin;uses:="org.osgi.framework";ve
+ rsion="1.2",org.osgi.framework.hooks.bundle;uses:="org.osgi.framework";
+ version="1.0",org.osgi.framework.hooks.service;uses:="org.osgi.framewor
+ k";version="1.1",org.osgi.framework.hooks.resolver;uses:="org.osgi.fram
+ ework.wiring";version="1.0",org.osgi.service.startlevel;uses:="org.osgi
+ .framework";version="1.1",org.osgi.framework.launch;uses:="org.osgi.fra
+ mework";version="1.0",org.osgi.framework;uses:="javax.security.auth.x50
+ 0";version="1.6",org.osgi.framework.hooks.weaving;uses:="org.osgi.frame
+ work.wiring";version="1.0"
+Import-Package: javax.security.auth.x500,javax.xml.bind.annotation
+Tool: Bnd-1.50.0

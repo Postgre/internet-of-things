@@ -1,1 +1,1 @@
-# internet-of-things
+# IoT Project Prototype

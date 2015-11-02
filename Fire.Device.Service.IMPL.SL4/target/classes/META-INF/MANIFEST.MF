@@ -1,0 +1,18 @@
+Manifest-Version: 1.0
+Bnd-LastModified: 1380790070617
+Build-Jdk: 1.7.0_15
+Built-By: SESA249907
+Bundle-Activator: com.thoughtconcepts.d2d.fire.device.services.starter.A
+ ctivator
+Bundle-ManifestVersion: 2
+Bundle-Name: Fire Device Service IMPL - SL4
+Bundle-SymbolicName: com.thoughtconcepts.d2d.Fire.Device.Service.Impl
+Bundle-Version: 1.0.0.SNAPSHOT
+Created-By: Apache Maven Bundle Plugin
+Export-Package: com.thoughtconcepts.d2d.fire.device.services.starter;use
+ s:="org.osgi.service.event,org.apache.felix.dm,org.osgi.framework,com.t
+ houghtconcepts.d2d.fire.device.services";version="1.0.0.SNAPSHOT"
+Import-Package: com.thoughtconcepts.d2d.fire.device.services;version="[1
+ .0,2)",org.apache.felix.dm;version="[3.0,4)",org.osgi.framework;version
+ ="[1.6,2)",org.osgi.service.event;version="[1.2,2)"
+Tool: Bnd-1.50.0

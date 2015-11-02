@@ -1,0 +1,13 @@
+Manifest-Version: 1.0
+Bnd-LastModified: 1380793962825
+Build-Jdk: 1.7.0_15
+Built-By: SESA249907
+Bundle-ManifestVersion: 2
+Bundle-Name: Statistics Service API - SL3
+Bundle-SymbolicName: com.thoughtconcepts.d2d.Statistics.Service.API
+Bundle-Version: 1.0.0.SNAPSHOT
+Created-By: Apache Maven Bundle Plugin
+Export-Package: com.thoughtconcepts.d2d.statistics.services;uses:="com.t
+ houghtconcepts.statistics.model";version="1.0.0.SNAPSHOT"
+Import-Package: com.thoughtconcepts.statistics.model;version="[1.0,2)"
+Tool: Bnd-1.50.0
